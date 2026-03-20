@@ -88,4 +88,4 @@ The user's phone will receive an M-Pesa prompt. Once they confirm, the callback 
 ## Notes
 
 - This project uses the **Safaricom sandbox** environment. Switch to production URLs and credentials when going live.
-- Keep your `consumerKey` and `consumerSecret` out of version control — use environment variables in production.
+- Keep your `consumerKey` and `consumerSecret` out of version control.use environment variables in production and keep your varribles in .env file. THIS IS FOR TESTING.
