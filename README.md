@@ -4,7 +4,7 @@ A Node.js project for integrating with Safaricom's **Daraja API** (M-Pesa) in th
 
 ## Features
 
-- Fetch an OAuth access token from Daraja API
+- Fetch an OAuth access token from the Daraja API
 - Trigger an STK Push (Lipa Na M-Pesa Online) request
 - Express server to receive and log M-Pesa payment callbacks
 - Ngrok integration for exposing the local callback URL
@@ -42,7 +42,7 @@ A Node.js project for integrating with Safaricom's **Daraja API** (M-Pesa) in th
 
 3. **Update your phone number and callback URL** in `index.js`:
 
-   ```js
+   ``` js
    const myPhoneNumber = '2547XXXXXXXX';
    // ...
    CallBackURL: 'https://YOUR_NGROK_URL/callback',
